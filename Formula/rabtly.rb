@@ -6,11 +6,11 @@ class Rabtly < Formula
   on_macos do
     on_arm do
       url "https://dl.rabtly.cloud/v1.4.9.006/rabtly_darwin_arm64"
-      sha256 "7fbec49fcbaa8ed2bca75e44b955a8a148c2172a3c0ccf9f1c7854ba62897c32"
+      sha256 "656993a4b543fc4664d3242830ef48ae71fa1eebed422a055427dc2a6532e719" # arm64
     end
     on_intel do
       url "https://dl.rabtly.cloud/v1.4.9.006/rabtly_darwin_amd64"
-      sha256 "bd8589f75af1db43bf98caa875199362ae1165bd4ba49ef9b03f12a3ab4ab0a5"
+      sha256 "ffbd06cca6f544b2b63a1d49bc62cbc4120e64ff03dc80dbb78b24ee50e5dde5" # amd64
     end
   end
 
