@@ -1,16 +1,16 @@
 class Rabtly < Formula
   desc "Self-hosted mesh VPN built on WireGuard"
   homepage "https://rabtly.cloud"
-  version "1.4.10.042"
+  version "1.4.10.043"
 
   on_macos do
     on_arm do
-      url "https://dl.rabtly.cloud/v1.4.10.042/rabtly_darwin_arm64"
-      sha256 "39b5b18623dbdeef53e6d4ab4426c896d300400bfc38fa0c3d0170f11ce84296" # arm64
+      url "https://dl.rabtly.cloud/v1.4.10.043/rabtly_darwin_arm64"
+      sha256 "b306418d751406b3a5da5490d5104a9cb96b73eab563100ff61dc4821950f9b7" # arm64
     end
     on_intel do
-      url "https://dl.rabtly.cloud/v1.4.10.042/rabtly_darwin_amd64"
-      sha256 "4ab32963bc519ede19e93a52bf0951add4c49e565227746dc0653406b495c55d" # amd64
+      url "https://dl.rabtly.cloud/v1.4.10.043/rabtly_darwin_amd64"
+      sha256 "f1e2979a0e6061e52ac2ed402c65205ef8e838e05b511ec9a1b6a7cf97874de5" # amd64
     end
   end
 
